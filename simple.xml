@@ -1,0 +1,150 @@
+<!--
+theme name:		ss
+version:		01
+author:			elemento26
+-->
+
+<theme>
+    <formatVersion>4</formatVersion>
+
+	<view name="system">
+	
+		<image name="background" extra="true">
+			<size>0 1</size>
+			<pos>0.5 0.5</pos>
+			<origin>0.5 0.5</origin>
+		</image>
+	</view>
+	
+	<feature supported="carousel">
+		<view name="system">
+		
+			<image name="console" extra="true">
+				<color>FFFFFFFF</color>
+				<maxSize>0.980 0.670</maxSize>
+				<origin>0.5 0.5</origin>
+				<pos>0.5 0.355</pos>
+			</image>
+
+			<carousel name="systemcarousel">
+				<pos>0.010 0.600</pos>
+				<size>0.980 0.350</size>
+				<color>FFFFFF00</color>
+				<logoScale>1.5</logoScale>
+				<logoSize>0.125 0.160</logoSize>
+				<maxLogoCount>5</maxLogoCount>
+			</carousel>
+
+			<text name="systemInfo">
+				<pos>0.500 0.915</pos>
+				<size>0.485 0.050</size>
+				<backgroundColor>FFFFFF00</backgroundColor>
+				<color>FFFFFF</color>
+				<fontPath>./_inc/fonts/Oswald-Light.ttf</fontPath>
+				<fontSize>0.030</fontSize>
+				<alignment>right</alignment>
+			</text>
+
+		</view>
+	</feature>
+
+    <view name="basic, detailed">
+
+		<text name="md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_players, md_lbl_lastplayed, md_lbl_playcount">
+			<color>393a3b</color>
+			<forceUppercase>1</forceUppercase>
+			<fontPath>./art/OPENSANS-LIGHT.TTF</fontPath>
+			<fontSize>0.03</fontSize>
+			<size>0.12 0.04</size>
+		</text>
+		
+		<text name="md_rating, md_developer, md_publisher, md_genre, md_players, md_playcount">
+			<color>393a3b</color>
+			<forceUppercase>1</forceUppercase>
+			<fontPath>./art/OPENSANS-LIGHT.TTF</fontPath>
+			<fontSize>0.03</fontSize>
+			<size>0.14 0.04</size>
+		</text>
+
+		<text name="md_description">
+			<color>393a3b</color>
+			<forceUppercase>1</forceUppercase>
+			<fontPath>./art/OPENSANS-LIGHT.TTF</fontPath>
+			<fontSize>0.03</fontSize>
+		</text>
+		
+		<datetime name="md_releasedate, md_lastplayed">
+			<color>393a3b</color>
+			<forceUppercase>1</forceUppercase>
+			<fontPath>./art/OPENSANS-LIGHT.TTF</fontPath>
+			<fontSize>0.03</fontSize>
+			<size>0 0.04</size>
+		</datetime>
+		
+		<image name="header" extra="true">
+			<pos>0 0</pos>
+			<origin>0 0</origin>
+			<size>1 0.16</size>
+			<path>./art/bright.png</path>
+		</image>
+
+		<image name="footer" extra="true">
+			<pos>0 1</pos>
+			<origin>0 1</origin>
+			<size>1 0.065</size>
+			<path>./art/bright.png</path>
+		</image> 
+
+		<image name="background">
+			<pos>0 0</pos>
+			<origin>0 0</origin>
+			<size>1 1</size>
+			<path>./art/mid.png</path>
+		</image> 
+
+		<textlist name="gamelist">
+			<selectorColor>393a3b</selectorColor>
+			<selectedColor>97999b</selectedColor>
+			<primaryColor>393a3b</primaryColor>
+			<secondaryColor>000000</secondaryColor>
+			<fontPath>./art/OPENSANS.TTF</fontPath>
+			<fontSize>0.03</fontSize>
+			<forceUppercase>1</forceUppercase>
+			<scrollSound>./art/scroll.wav</scrollSound>
+		</textlist>
+		
+		
+		<sound name="systemscroll">
+			<path>./art/scroll.wav</path>
+		</sound>
+		
+		<sound name="systemselect">
+			<path>./art/scroll.wav</path>
+		</sound>
+		
+		<sound name="listscroll">
+			<path>./art/scroll.wav</path>
+		</sound>
+		
+		<sound name="back">
+			<path>./art/select.wav</path>
+		</sound>
+		
+		<sound name="launch">
+			<path>./art/select.wav</path>
+		</sound>
+		
+		<sound name="menuopen">
+			<path>./art/select.wav</path>
+		</sound>
+		
+		 
+	</view>
+
+	<view name="basic">
+	</view>
+
+	<view name="detailed">
+	</view>
+	
+</theme>
