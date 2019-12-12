@@ -9,7 +9,7 @@
 		</image>
 
 		<image name="logo">
-			<path>./art/zxs.svg</path>
+			<path>./art/zxspectrum.png</path>
         </image>
 		
 		<helpsystem name="help">

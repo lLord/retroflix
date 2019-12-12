@@ -9,7 +9,7 @@
 		</image>
 
 		<image name="logo">
-			<path>./art/a2600.svg</path>
+			<path>./art/atari2600.png</path>
         </image>
 		
 		<helpsystem name="help">

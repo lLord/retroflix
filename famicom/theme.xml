@@ -9,7 +9,7 @@
 		</image>
 
 		<image name="logo">
-			<path>./art/famicom.svg</path>
+			<path>./art/famicom.png</path>
         </image>
 		
 		<helpsystem name="help">
